@@ -8,3 +8,4 @@ RUN cp -r public /var/www
 
 ENTRYPOINT ["/gopath/bin/freegeoip"]
 CMD ["-public", "/var/www"]
+EXPOSE 8080
